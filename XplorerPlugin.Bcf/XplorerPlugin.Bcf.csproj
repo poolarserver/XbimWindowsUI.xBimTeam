@@ -21,6 +21,10 @@
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
+  <PropertyGroup>
+    <!-- TODO: delete once DotNetZip removed  -->
+    <WarningsNotAsErrors>NU1903</WarningsNotAsErrors>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data.OracleClient" />
@@ -68,6 +72,6 @@
     <PackageReference Include="System.Security.Permissions" Version="4.5.0" />
     <PackageReference Include="System.Security.Principal.Windows" Version="4.5.1" />
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
-    <PackageReference Include="Xbim.Geometry" Version="5.1.443-develop" />    
+    <PackageReference Include="Xbim.Geometry" Version="5.1.782-develop" />    
   </ItemGroup>
 </Project>
