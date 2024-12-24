@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<LanguageTargets>$(MSBuildToolsPath)\Microsoft.CSharp.targets</LanguageTargets>
-		<TargetFrameworks>net472</TargetFrameworks>
+		<TargetFrameworks>net48</TargetFrameworks>
 		<RuntimeIdentifiers>win7-x64;win7-x86</RuntimeIdentifiers>
 		<OutputType>WinExe</OutputType>
 		<Title>Xbim Xplorer</Title>
@@ -12,12 +12,12 @@
 		</Description>
 		<ApplicationIcon />
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net472|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|AnyCPU'">
 		<OutputPath>..\Output\Debug\</OutputPath>
 		<PlatformTarget>x86</PlatformTarget>
 		<NoWarn>CS1591;NU1903</NoWarn>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net472|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
 		<OutputPath>..\Output\Release</OutputPath>
 		<NoWarn>CS1591;NU1903</NoWarn>
 	</PropertyGroup>

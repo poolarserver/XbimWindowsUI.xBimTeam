@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <LanguageTargets>$(MSBuildToolsPath)\Microsoft.CSharp.targets</LanguageTargets>
-    <TargetFrameworks>net472</TargetFrameworks>
+    <TargetFrameworks>net48</TargetFrameworks>
     <Title>Xbim.Presentation</Title>
     <Description>Xbim.WindowsUI is a library containing a set of Windows Forms and WPF controls that can be used to build Windows Xaml 
     or forms-based applications, which can display the 3D geometry and semantic data in IFC building models.</Description>
@@ -12,10 +12,10 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>XbimIcon.png</PackageIcon>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net472|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|AnyCPU'">
     <OutputPath>..\Output\Debug\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net472|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
     <OutputPath>..\Output\Release</OutputPath>
   </PropertyGroup>
   <ItemGroup>
